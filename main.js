@@ -22,65 +22,65 @@ var student19=document.getElementById("name19").value;
 var student20=document.getElementById("name20").value;
 
 if(student1 !== ""){
-namesarray.push(student1);
+namesarray.push(student1.toLowerCase());
 }
 
     if(student2 !== ""){
-        namesarray.push(student2);
+        namesarray.push(student2.toLowerCase());
         }
         if(student3 !== ""){
-            namesarray.push(student3);
+            namesarray.push(student3.toLowerCase());
             }
             if(student4 !== ""){
-                namesarray.push(student4);
+                namesarray.push(student4.toLowerCase());
                 }
                 if(student5 !== ""){
-                    namesarray.push(student5);
+                    namesarray.push(student5.toLowerCase());
                     }
                     if(student6 !== ""){
-                        namesarray.push(student6);
+                        namesarray.push(student6.toLowerCase());
                         }
                         if(student7 !== ""){
-                            namesarray.push(student7);
+                            namesarray.push(student7.toLowerCase());
                             }
                             if(student8 !== ""){
-                                namesarray.push(student8);
+                                namesarray.push(student8.toLowerCase());
                                 }
                                 if(student9 !== ""){
-                                    namesarray.push(student9);
+                                    namesarray.push(student9.toLowerCase());
                                     }
                                     if(student10 !== ""){
-                                        namesarray.push(student10);
+                                        namesarray.push(student10.toLowerCase());
                                         }
                                         if(student11 !== ""){
-                                            namesarray.push(student11);
+                                            namesarray.push(student11.toLowerCase());
                                             }
                                             if(student12 !== ""){
-                                                namesarray.push(student12);
+                                                namesarray.push(student12.toLowerCase());
                                                 }
                                                 if(student13 !== ""){
-                                                    namesarray.push(student13);
+                                                    namesarray.push(student13.toLowerCase());
                                                     }
                                                     if(student14 !== ""){
-                                                        namesarray.push(student14);
+                                                        namesarray.push(student14.toLowerCase());
                                                         }
                                                         if(student15 !== ""){
-                                                            namesarray.push(student15);
+                                                            namesarray.push(student15.toLowerCase());
                                                             }
                                                             if(student16 !== ""){
-                                                                namesarray.push(student16);
+                                                                namesarray.push(student16.toLowerCase());
                                                                 }
                                                                 if(student17 !== ""){
-                                                                    namesarray.push(student17);
+                                                                    namesarray.push(student17.toLowerCase());
                                                                     }
                                                                     if(student18 !== ""){
-                                                                        namesarray.push(student18);
+                                                                        namesarray.push(student18.toLowerCase());
                                                                         }
                                                                         if(student19 !== ""){
-                                                                            namesarray.push(student19);
+                                                                            namesarray.push(student19.toLowerCase());
                                                                             }
                                                                             if(student20 !== ""){
-                                                                                namesarray.push(student20);
+                                                                                namesarray.push(student20.toLowerCase());
                                                                                 }
 
                                                                          
