@@ -21,34 +21,84 @@ var student18=document.getElementById("name18").value;
 var student19=document.getElementById("name19").value;
 var student20=document.getElementById("name20").value;
 
+if(student1 !== ""){
 namesarray.push(student1);
-namesarray.push(student2);
-namesarray.push(student3);
-namesarray.push(student4);
-namesarray.push(student5);
-namesarray.push(student6);
-namesarray.push(student7);
-namesarray.push(student8);
-namesarray.push(student9);
-namesarray.push(student10);
-namesarray.push(student11);
-namesarray.push(student12);
-namesarray.push(student13);
-namesarray.push(student14);
-namesarray.push(student15);
-namesarray.push(student16);
-namesarray.push(student17);
-namesarray.push(student18);
-namesarray.push(student19);
-namesarray.push(student20);
+}
 
-document.getElementById("answer1").innerHTML=namesarray;
+    if(student2 !== ""){
+        namesarray.push(student2);
+        }
+        if(student3 !== ""){
+            namesarray.push(student3);
+            }
+            if(student4 !== ""){
+                namesarray.push(student4);
+                }
+                if(student5 !== ""){
+                    namesarray.push(student5);
+                    }
+                    if(student6 !== ""){
+                        namesarray.push(student6);
+                        }
+                        if(student7 !== ""){
+                            namesarray.push(student7);
+                            }
+                            if(student8 !== ""){
+                                namesarray.push(student8);
+                                }
+                                if(student9 !== ""){
+                                    namesarray.push(student9);
+                                    }
+                                    if(student10 !== ""){
+                                        namesarray.push(student10);
+                                        }
+                                        if(student11 !== ""){
+                                            namesarray.push(student11);
+                                            }
+                                            if(student12 !== ""){
+                                                namesarray.push(student12);
+                                                }
+                                                if(student13 !== ""){
+                                                    namesarray.push(student13);
+                                                    }
+                                                    if(student14 !== ""){
+                                                        namesarray.push(student14);
+                                                        }
+                                                        if(student15 !== ""){
+                                                            namesarray.push(student15);
+                                                            }
+                                                            if(student16 !== ""){
+                                                                namesarray.push(student16);
+                                                                }
+                                                                if(student17 !== ""){
+                                                                    namesarray.push(student17);
+                                                                    }
+                                                                    if(student18 !== ""){
+                                                                        namesarray.push(student18);
+                                                                        }
+                                                                        if(student19 !== ""){
+                                                                            namesarray.push(student19);
+                                                                            }
+                                                                            if(student20 !== ""){
+                                                                                namesarray.push(student20);
+                                                                                }
+
+                                                                         
+document.getElementById("answer1").innerHTML=namesarray.join("<br>");
 document.getElementById("sort2").style.display="inline-block";
 document.getElementById("submit").style.display="none";
+
 };
 function sortnames(){
+ 
 namesarray.sort();
-document.getElementById("answer1").innerHTML=namesarray;
-
+document.getElementById("answer2").innerHTML=namesarray.join("<br>");
+document.getElementById("reset").style.display="inline-block";
 
 };
+function reset() {
+    document.getElementById("submit").style.display="inline-block";
+    document.getElementById("sort2").style.display="none";
+    document.getElementById("reset").style.display="none";
+    namesarray = [];
+}

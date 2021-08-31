@@ -2,7 +2,7 @@
 <html>
     <head>
         <script src="main.js"></script>
-        <title>C-79</title>
+        <title>ABC Order</title>
         </head>
     <body>
        <center> 
@@ -32,13 +32,47 @@
         </div>
         <button id="submit" onclick="submitdata();">Submit</button>
         <br>
+      <br>
+        <div id="display" style="background-color: rgb(207, 31, 31); width: 60%;">
         <br>
-        <div id="display">
-        <h1 id="answer1"></h1>
-               
+            <h1 id="answer1"></h1>
+               <br>
         </div>
+        <br>
+        <br>
         <button id="sort2" onclick="sortnames();" style="display: none;">Sort</button> 
+        <br>
+        <br>
+        <div id="display" style="background-color: rgb(29, 175, 54); width: 60%;">
+            <br>
+                <h1 id="answer2"></h1>
+                   <br>
+            </div>
+            <br>
+        <br>
+
+            <button id="reset" onclick="reset();" style="display: none;">Reset</button> 
         </center>
+        <style>
+span{
+font-family: verdana;
+
+}
+h1{
+    font-family: verdana;
+}
+body{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+}
+button{
+background-color: white;
+color: black;
+font-family: verdana;
+}
+
+        </style>
         </body>
        
     </html>
