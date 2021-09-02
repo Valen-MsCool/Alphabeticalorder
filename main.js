@@ -94,11 +94,27 @@ function sortnames(){
 namesarray.sort();
 document.getElementById("answer2").innerHTML=namesarray.join("<br>");
 document.getElementById("reset").style.display="inline-block";
-
+document.getElementById("delete").style.display="inline-block";
+document.getElementById("sort2").style.display="none";
 };
 function reset() {
     document.getElementById("submit").style.display="inline-block";
     document.getElementById("sort2").style.display="none";
     document.getElementById("reset").style.display="none";
+    document.getElementById("delete").style.display="none";
     namesarray = [];
+}
+function deletestuff() {
+    document.getElementById("submit").style.display="inline-block";
+    document.getElementById("sort2").style.display="none";
+    document.getElementById("reset").style.display="none";
+    document.getElementById("delete").style.display="none";
+    namesarray = [];
+    document.getElementById("answer1").innerHTML="";
+    document.getElementById("answer2").innerHTML="";
+    for (i=1; i < 21; i++){
+document.getElementById("name"+i).value="";
+
+        
+    }
 }
